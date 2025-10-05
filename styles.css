@@ -14,7 +14,7 @@ body{
 img {
   max-width: 100%;
   margin-right: 5px;
-  margin-left: 5px;
+  margin-left: 5px; 
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -58,7 +58,7 @@ img {
   background: #242d47;
   padding-top: 60px;
   transition: 0.3s;
-  z-index: 1000;
+  z-index: 100;
   display: flex;
   flex-direction: column;
 }
