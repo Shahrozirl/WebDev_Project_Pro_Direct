@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* basic styles */
+/*basic styles*/
 body{
   background-color: rgb(255, 255, 255);
   font-family: verdana;
@@ -19,7 +19,7 @@ img {
   margin-bottom: 5px;
 }
 
-/* Top Banner */
+/*Top Banner*/
 .top-banner {
   height: 200px;
   background-color: #242d47;
@@ -29,6 +29,47 @@ img {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+.logo{
+  max-height: 100%;
+}
+
+/*Content*/
+.content {
+  padding: 80px 20px;
+}
+
+/*All Containers*/
+.container-main {
+  display: flex; /*Enable Flexbox*/
+  gap: 40px; /*Add spacing between columns, padding below does a similar task*/
+  padding: 20px;
+}
+.column-left {
+  flex: 18%;
+  position: relative; /*Needed for absolute positioning of text and images*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*Centers horizontally because its a column*/
+  overflow: hidden; /* Prevents child elements from overflowing */
+}
+.column-middle {  
+  flex: 45%;
+  background-color: #ffffff48;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /*Prevents child elements from overflowing*/
+}
+.column-right {  
+  flex: 17%;
+  /*background-color: #e74c3c;*/
+  position: relative; /*Needed for absolute positioning of text and images*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*Centers horizontally*/
+  overflow: hidden; /*Prevents elements from overflowing*/
+}
+
 
 /*Footer*/
 .site-footer {
