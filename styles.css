@@ -29,3 +29,42 @@ img {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+/*Footer*/
+.site-footer {
+  background-color: #26272b;
+  color: #737373;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.site-footer a {
+  color: #737373;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #3366cc;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+.copyright-text {
+  margin: 10px 0 0;
+}
+
+ul.gear-list {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ul.gear-list li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 2;
+}
