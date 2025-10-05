@@ -18,3 +18,14 @@ img {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+/* Top Banner */
+.top-banner {
+  height: 200px;
+  background-color: #242d47;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
