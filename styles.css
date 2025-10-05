@@ -60,7 +60,7 @@ img {
   flex-direction: column;
   overflow: hidden; /*Prevents child elements from overflowing*/
 }
-.column-right {  
+.column-author {  
   flex: 17%;
   /*background-color: #e74c3c;*/
   position: relative; /*Needed for absolute positioning of text and images*/
@@ -68,6 +68,15 @@ img {
   flex-direction: column;
   align-items: center; /*Centers horizontally*/
   overflow: hidden; /*Prevents elements from overflowing*/
+}
+.column-right {
+    flex: 20%;
+  /*background-color: #e74c3c;*/
+  position: relative; /*Needed for absolute positioning of text and images*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*Centers horizontally*/
+  overflow: hidden; /*prevents child elements from overflowing*/
 }
 
 
@@ -108,4 +117,39 @@ ul.gear-list li {
   margin-top: 8px;
   margin-bottom: 8px;
   line-height: 2;
+}
+
+/*media quiries for smaller screens*/
+@media only screen 
+and (min-width : 1224px) {
+  .contact-form {
+    width: 60%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .column-left, .column-side2 {
+    display: none;
+  }
+  .container-home {
+    flex-direction: column; /*stacks remaining columns. Error with flexbox staying as columns when screen got smaller*/
+  }
+  .column-main,
+  .column-author {
+    width: 100%; /*full width on mobile*/
+  }
+
+}
+
+@media (max-width: 480px) {
+  .column-side1, .column-side2 {
+    display: none;
+  }
+  .container-home {
+    flex-direction: column; /*stacks remaining columns*/
+  }
+  .column-main {
+    width: 100%; /*full width on mobile*/
+  }
+
 }
