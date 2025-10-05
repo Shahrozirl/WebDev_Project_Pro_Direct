@@ -30,6 +30,52 @@ img {
   font-weight: bold;
 }
 
+/*Hamburger Icon (navigation button)*/
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+}
+.hamburger span {
+  height: 4px;
+  background: #79bdcd;
+  border-radius: 2px;
+}
+/* Slide-in Navigation */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #242d47;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+.side-nav a {
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.side-nav a:hover {
+  background: #243119;
+}
+/*When menu is open*/
+.side-nav.open {
+  left: 0;
+}
+
 .logo{
   max-height: 100%;
 }
