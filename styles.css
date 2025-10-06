@@ -237,10 +237,6 @@ and (min-width : 1224px) {
 }
 
 .snowboarder {
-  width: 100%;
+  width: 100px;
   height: auto;
-  max-width: 300px; /* Limit the maximum width */
-  position: absolute;
-  bottom: 0;
-  animation: snowboarder-move 5s linear infinite;
 }
