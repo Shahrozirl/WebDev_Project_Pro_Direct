@@ -236,7 +236,12 @@ and (min-width : 1224px) {
 
 }
 
-.snowboarder {
-  width: 100px;
-  height: auto;
+.skiing {
+  width: auto;
+  height: 25%;
+  position: fixed;
+  bottom: 15%;
+  right: 15%;
+  z-index: 0; /*Ensures it stays behind other content*/
+  opacity: 0.1; /*Adjust opacity for subtle effect*/
 }
