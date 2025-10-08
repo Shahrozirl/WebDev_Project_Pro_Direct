@@ -245,3 +245,7 @@ and (min-width : 1224px) {
   z-index: 0; /*Ensures it stays behind other content*/
   opacity: 0.1; /*Adjust opacity for subtle effect*/
 }
+
+.equipment {
+  width: 20px;height:25%
+}
