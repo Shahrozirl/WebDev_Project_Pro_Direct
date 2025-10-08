@@ -247,5 +247,6 @@ and (min-width : 1224px) {
 }
 
 .equipment {
-  width: 20px;height:25%
+  width: 20px;
+  height:25%;
 }
