@@ -6,18 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Snow Trails </title>
   <link rel="stylesheet" href="styles.css">
-  <script src='script.js'></script>
 </head>
-<script>
-  (function () {
-    emailjs.init("TQnTKivGdFVOB_yY0");
-  })();
-</script>
 
 <body>
   <!-- Top Banner -->
   <div class="top-banner">
-    <img class="logo" src="imagesdocumetns\d5652467-95d4-4195-b69b-e470dd2c607f_removalai_preview1.png">
+    <img class="logo" src="https://www.snowtrails.com/upload/snow-trails-logo.png">
   </div>
   <!-- Hamburger Icon -->
   <div class="hamburger" onclick="toggleMenu()">
@@ -29,7 +23,6 @@
   <!-- Slide-in Navigation -->
   <div class="side-nav" id="sideNav">
     <a href="index.html">Home</a>
-    <a href="Map.html">Reptile Map</a>
     <a href="About.html">About</a>
     <a href="form.html">Contact</a>
   </div>
@@ -40,27 +33,27 @@
         <p>Here is a contact form you can use to contact us! Please let us know if you have any inquiries,
           reporting errors within the reivews or just a casual question.</p>
       </section>
-<h3>Contact Form</h3>
-<div class="container-contact">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Send Message">
+        </div>
+      </form>
       <section>
         <p>Before contacting the Snow Trails team, please keep the following points in mind. While we don't like stating
           the obvious, experience has shown that sharing these notes can help save everyone time:</p>
