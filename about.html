@@ -1,58 +1,121 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Snow trails</title>
-    <link rel="stylesheet" href="styles">
+    <title>About | Snow Trails </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='script.js'></script>
 </head>
+
 <body>
-    <header>
-        <h1>Snow Trails Agency</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html" >About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <img class="logo" src="https://www.snowtrails.com/upload/snow-trails-logo.png">
+    </div>
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-    <main class="container">
-        <section class="about">
-            <h2>About Us</h2>
-            <p>
-                Snow Trails is a winter holiday provider specialising in snow-based experiences and resort services.
-                On this site, visitors can reserve lift tickets, rent skiing or tubing equipment, and explore snow-centric activities—though all lift tickets must be purchased in advance.
-                Visitors can book their tickets online in advance and choose from different packages to suit their needs. </p>
-                
+    <!-- Slide-in Navigation -->
+    <div class="side-nav" id="sideNav">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="form.html">Contact</a>
+    </div>
 
-        <section class="founders">
-            <h2>Meet the Founders</h2>
-            <div class="founder-card">
-                <img src="founder1.jpg" alt="Founder 1">
-                <div>
-                    <h3> John Dermot</h3>
-                    <p>John is a professional snowboarder with over 5 years of experience in the production industry.</p>
-                </div>
+    <div class="container-main">
+        <div class="column column-left"></div>
+        <div class="column column-middle">
+            <h1>About Snow Trails</h1>
+            <section>
+                <p>Welcome to <strong>Snow Trails</strong>, your ultimate destination for trusted, snow locations. Our
+                    mission is simple but vital: to raise the standard of satisfaction. Whether you're a new experiencer
+                    or a seasoned enthusiast, Snow Trails is your go-to website.</p>
+            </section>
+            <section>
+                <p>The Alps (+ all the other mountain ranges) are some of the most captivating (and dangerous) places on
+                    Earth. From the elegence of Mount Everest to Carountoohill in Ireland, each nature spot should be
+                    visited. Unfortunately, it can be difficult to get to certain locations. That's where we come in —
+                    to cut through the myths and provide excellent service and help.</p>
+            </section>
+            <section>
+                <img src="https://www.lboro.ac.uk/media/media/sport/images/sports/snowsports/cards/snow-sports-au.jpg"
+                    alt="Snow Trails"
+                    style="width:100%; height:auto; border-radius:10px; margin-top:10px; margin-bottom:10px;">
+                <p>Every care guide, tip, and travel recommendation is carefully compiled by experienced hoobyists,
+                    agencies, and even the locals! We don't just tell you what to do — we explain the why behind it, a
+                    proper story to tell once you get back!</p>
+            </section>
+            <section>
+                <p>At Snow Trails, we believe that sustainability is more than a concept — it's a responsibility. We
+                    encourage everyone to stay mindful of the enviroment when visiting thses exotic places. Treat it
+                    like your onw home!</p>
+            </section>
+            <section>
+                <p>Our website includes detailed species-specific care guides, shopping lists, equipment setup
+                    instructions, and much more( — we’ve got you covered)
+                <p>
+            </section>
+            <section>
+                <p>Behind Snow Trails is a passionate team. We are hobbyists, researchers, educators, and above all,
+                    snow sport lovers. Our goal is to build a global community of responsible enthusiasts who value the
+                    importance of your nature.</p>
+            </section>
+        </div>
+        <div class="column column-author">
+            <hr class="divider">
+            <div class="definition">
+                <strong>SNOW</strong>/snəʊ/<br>
+                <p>noun</p>
+                <p><em>Example:</em> atmospheric water vapour frozen into ice crystals and falling in light white flakes
+                    or lying on the ground as a white layer.</p>
             </div>
-            <div class="founder-card">
-                <img src="founder2.jpg" alt="Founder 2">
-                <div>
-                    <h3>Amy Bratt</h3>
-                    <p>Amy is a passionate skier and product designer. Her love for innovation and snow sports led him to co-create gear that combines safety, performance and style.</p> 
-                </div>
+            <hr class="divider">
+            <h2 class="section-title">MEET THE AUTHOR</h2>
+            <div class="author-image">
+                <img src="pictures/luke.png" alt="Author" />
             </div>
-             </div>
-            <div class="founder-card">
-                <img src="founder3.jpg" alt="Founder 2">
-                <div>
-                    <h3>Derrick Fisher</h3>
-                    <p>He is the third and final co-founder of Snow Trails, is a former Olympic Champion and a Material Engineer. 
-            </div>
-        </section>
-    </main>
+            <div class="author-text">
+                <p><strong>My name is Luke Snow</strong>, professional snowboarder.</p>
 
-    <footer>
-        <p>&copy; 2025 Snow Travel Agency. All rights reserved.</p>
-    </footer>
+                <p>I really like snow! That’s how <strong>Snow Trails</strong> was born!</p>
+
+                <p><strong>What is Snow Trails?</strong> Snow Trails is the website for finding your holiday.</p>
+                <hr class="divider">
+                <h2 class="section-title">PROUDLY SPONSORED BY</h2>
+                <img
+                    src="https://images.vexels.com/media/users/3/131181/isolated/preview/a0b4b0a8575c3e86d395557f87b89a81-kebab-logo-1.png">
+            </div>
+        </div>
+        <div class="column column-right">
+        </div>
+    </div>
+    <script src='script.js'></script>
 </body>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by
+                    <a href="index.html">Snow Trails Travel Agency</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </html>
