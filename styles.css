@@ -257,7 +257,7 @@ and (min-width : 1224px) {
   width: 90%; /* Makes it responsive */
   margin: 20px auto;
   padding: 20px;
-  background-color: rgba(12, 164, 22, 0.428);
+  background-color: rgba(63, 158, 241, 0.428);
   border-radius: 10px;
   box-sizing: border-box;
 }
