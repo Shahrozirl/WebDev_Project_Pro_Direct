@@ -292,3 +292,24 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #2b98b1;
 }
+
+.text-size-controls {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2000;
+}
+
+.text-size-controls button {
+  font-size: 16px;
+  padding: 6px 10px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-size-controls button:hover {
+  background-color: #f0f0f0;
+}
