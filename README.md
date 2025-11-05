@@ -11,7 +11,8 @@ Requirements:
 We previously already added a generic verdana font style for easier readability across all types of people.
 
 Website Description:
-Home Page
+Just a quick overview of the website:
+The site is designed to help people find great snow sport and winter travel locations. The style is clean and bright, with snowy mountain images to match the theme. The Home page welcomes visitors and introduces the idea behind Snow Trails. The About page explains the purpose of the project and shares a little background about the founder, Luke Snow. The Contact page gives users a simple way to get in touch for help or questions.
 
 Modifications:
 1. Alt text included in all images to make sure screen readers have a more descriptive meaning of the image. Examples: Logo: “Snow Trails Travel Agency logo”.
