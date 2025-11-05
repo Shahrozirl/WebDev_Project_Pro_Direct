@@ -301,10 +301,12 @@ input[type="submit"]:hover {
 }
 
 .text-size-controls button {
-  font-size: 16px;
-  padding: 6px 10px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 20px;
   margin-left: 5px;
-  background-color: #ffffff;
+  background-color: #5954be;
   border: 2px solid #000;
   border-radius: 5px;
   cursor: pointer;
