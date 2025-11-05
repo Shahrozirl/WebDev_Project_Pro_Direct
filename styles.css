@@ -69,7 +69,7 @@ img {
   font-size: 18px;
 }
 .side-nav a:hover {
-  background: #243119;
+  background: #4f2e91;
 }
 /*When menu is open*/
 .side-nav.open {
@@ -282,7 +282,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4d44ea;
+  background-color: #4f2e91;
   color: #fff;
   padding: 10px 20px;
   border: none;
