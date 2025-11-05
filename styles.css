@@ -250,3 +250,45 @@ and (min-width : 1224px) {
   width: 20px;
   height:25%;
 }
+
+/*Contact Form*/
+.contact-form {
+  /*max-width: 600px;
+  width: 90%; /* Makes it responsive */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(12, 164, 22, 0.428);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4d44ea;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2b98b1;
+}

@@ -11,12 +11,11 @@
   <!-- Top Banner -->
   <div class="top-banner">
     <img class="logo" src="https://www.snowtrails.com/upload/snow-trails-logo.png" alt="Snow Trails Logo">
-    </div>
-    <div class="hamburger" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
   <!-- Slide Navigation -->
@@ -25,36 +24,64 @@
     <a href="about.html">About</a>
     <a href="contact.html" class="active">Contact</a>
   </div>
-
-  <!-- Page Content -->
-  <section class="contact-section">
-    <h1>Contact Snow Trails</h1>
-    <p>Have any problems or concerns? We'd love to hear from you! Whether you have questions, suggestions, or just want to say hi, drop us a message below.</p>
-
-    <form class="contact-form">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="6" placeholder="Your Message"></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-
-        <!-- Social Links -->
-    <div class="social-links">
-      <a href="mailto:you@example.com">Email</a> |
-      <a href="https://www.instagram.com/egohofficial_" target="_blank" rel="noopener">Instagram</a> |
-      <a href="https://www.snapchat.com/add/jasonegoh" target="_blank" rel="noopener">Snapchat</a> |
-      <a href="https://www.linkedin.com/in/jason-egoh-557416389" target="_blank" rel="noopener">Linkedin</a>
-     </div>
-
-   
-
+  <div class="container-main">
+    <div class="column column-left"></div>
+    <div class="column column-middle">
+        <!-- Page Content -->
+      <section class="contact-section">
+        <h1>Contact Snow Trails</h1>
+        <p>Have any problems or concerns? We'd love to hear from you! Whether you have questions, suggestions, or just want to say hi, drop us a message below.</p>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Send Message">
+          </div>
+        </form>
+      </section>
+    </div>
+    <div class="column column-author">
+      <hr class="divider">
+      <div class="definition">
+        <strong>SNOW</strong>/snəʊ/<br>
+        <p>noun</p>
+        <p><em>Example:</em> atmospheric water vapour frozen into ice crystals and falling in light white flakes or lying on
+          the ground as a white layer.</p>
+      </div>
+      <hr class="divider">
+      <h2 class="section-title">MEET THE AUTHOR</h2>
+      <div class="author-image">
+        <img src="pictures/luke.png" alt="Author Luke Snow" />
+      </div>
+      <div class="author-text">
+        <p><strong>My name is Luke Snow</strong>, professional snowboarder.</p>
     
-  </section>
+        <p>I really like snow! That’s how <strong>Snow Trails</strong> was born!</p>
+    
+        <p><strong>What is Snow Trails?</strong> Snow Trails is the website for finding your holiday.</p>
+        <hr class="divider">
+        <h2 class="section-title">PROUDLY SPONSORED BY</h2>
+        <img
+          src="https://images.vexels.com/media/users/3/131181/isolated/preview/a0b4b0a8575c3e86d395557f87b89a81-kebab-logo-1.png"
+          alt="kebab brand sponsor">
+      </div>
+    </div>
+    <div class="column column-right"></div>
+    <script src='script.js'></script>
+  </div>
 </body>
 </html>
