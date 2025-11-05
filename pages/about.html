@@ -9,13 +9,14 @@
         <div class="text-size-controls">
             <button onclick="changeTextSize(1)">A+</button>
             <button onclick="changeTextSize(-1)">A-</button>
+            <button id="contrastToggle" class="contrast-button" onclick="toggleContrast()">☀️</button>
         </div>
 </head>
 
 <body>
     <!-- Top Banner -->
     <div class="top-banner">
-        <img class="logo" src="../media/snow-trails-logo.png" alt="Snow Trails Logo">
+        <img class="logo" src="../media/snow-trails-logo.png" alt="Snow Trails Logo" class="no-invert">
     </div>
     <!-- Hamburger Icon -->
     <div class="hamburger" onclick="toggleMenu()">
@@ -49,7 +50,7 @@
             <section>
                 <img src="../media/snow-sports-au.jpg"
                     alt="Snow Sports event finish line"
-                    style="width:100%; height:auto; border-radius:10px; margin-top:10px; margin-bottom:10px;">
+                    style="width:100%; height:auto; border-radius:10px; margin-top:10px; margin-bottom:10px;" class="no-invert">
                 <p>Every care guide, tip, and travel recommendation is carefully compiled by experienced hoobyists,
                     agencies, and even the locals! We don't just tell you what to do — we explain the why behind it, a
                     proper story to tell once you get back!</p>
@@ -81,7 +82,7 @@
             <hr class="divider">
             <h2 class="section-title">MEET THE AUTHOR</h2>
             <div class="author-image">
-                <img src="../media/luke.png" alt="Author Luke Snow" />
+                <img src="../media/luke.png" alt="Author Luke Snow" class="no-invert"/>
             </div>
             <div class="author-text">
                 <p><strong>My name is Luke Snow</strong>, professional snowboarder.</p>
@@ -92,7 +93,7 @@
                 <hr class="divider">
                 <h2 class="section-title">PROUDLY SPONSORED BY</h2>
                 <img
-                    src="../media/kebablogo.png" alt="Kebab Brand Sponsor">
+                    src="../media/kebablogo.png" alt="Kebab Brand Sponsor" class="no-invert">
             </div>
         </div>
         <div class="column column-right">

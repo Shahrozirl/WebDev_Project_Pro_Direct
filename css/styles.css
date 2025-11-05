@@ -315,3 +315,29 @@ input[type="submit"]:hover {
 .text-size-controls button:hover {
   background-color: #f0f0f0;
 }
+
+.contrast-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2000;
+  font-size: 20px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.high-contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.high-contrast img {
+  filter: invert(1) contrast(1.1);
+}
+
+.no-invert {
+  filter: none !important;
+}
