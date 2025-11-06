@@ -7,12 +7,10 @@ Dear Client,
 
 Our team has completed the updates for more accessibility for people with visual impairment or blindness.
 
-Requirements:
-We previously already added a generic verdana font style for easier readability across all types of people.
-
 Website Description:
 Just a quick overview of the website:
 The site is designed to help people find great snow sport and winter travel locations. The style is clean and bright, with snowy mountain images to match the theme. The Home page welcomes visitors and introduces the idea behind Snow Trails. The About page explains the purpose of the project and shares a little background about the founder, Luke Snow. The Contact page gives users a simple way to get in touch for help or questions.
+We previously already added a generic verdana font style for easier readability across all types of people.
 
 Modifications:
 1. Alt text included in all images to make sure screen readers have a more descriptive meaning of the image. Examples: Logo: “Snow Trails Travel Agency logo”.
@@ -22,8 +20,10 @@ Modifications:
 
 Extra Feature:
 5. The above are all modified changes to previous code, we decided to add an extra feature which are two buttons on the bottom-right of the screen that will allow the user to increase/decrease font-size as required (for people with visual impairment compared to full blindness).
+6. Also added a dark-mode button to bottom-left of the screen, some people with visual impairment need higher contrast to make out words properly.
 
-Our website is noe hosted online and you can access the website here: "https://shahrozirl.github.io/WebDev_Project_Pro_Direct/"
+Our website is now hosted online and you can access the website here: "https://shahrozirl.github.io/WebDev_Project_Pro_Direct/"
+If you would like to access the github repository, you can access that here: "https://github.com/Shahrozirl/WebDev_Project_Pro_Direct"
 
 Thank you very much for choosing Sports Limited for your special needs!
 Please let us know if you will be needing any future updates and/or future websites.
