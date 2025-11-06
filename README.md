@@ -8,7 +8,7 @@ Dear Client,
 Our team has completed the updates for more accessibility for people with visual impairment or blindness.
 
 Website Description:
-Just a quick overview of the website:
+Just a quick overview of the website,
 The site is designed to help people find great snow sport and winter travel locations. The style is clean and bright, with snowy mountain images to match the theme. The Home page welcomes visitors and introduces the idea behind Snow Trails. The About page explains the purpose of the project and shares a little background about the founder, Luke Snow. The Contact page gives users a simple way to get in touch for help or questions.
 We previously already added a generic verdana font style for easier readability across all types of people.
 
