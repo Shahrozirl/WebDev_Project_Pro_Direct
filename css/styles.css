@@ -210,21 +210,24 @@ and (min-width : 1224px) {
 }
 
 @media (max-width: 768px) {
-  .column-left, .column-right {
+  .column-left, .column-right, .column-author {
     display: none;
   }
   .container-home {
     flex-direction: column; /*stacks remaining columns. Error with flexbox staying as columns when screen got smaller*/
   }
-  .column-main,
-  .column-author {
+  .column-main {
     width: 100%; /*full width on mobile*/
+  }
+  .text-size-controls, .contrast-button {
+    font-size: 10px;
+    padding: 5px 5px;
   }
 
 }
 
 @media (max-width: 480px) {
-  .column-left, .column-right {
+  .column-left, .column-right, .column-author {
     display: none;
   }
   .container-home {
