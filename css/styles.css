@@ -19,6 +19,10 @@ img {
   margin-bottom: 5px;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
 /*Top Banner*/
 .top-banner {
   height: 200px;
