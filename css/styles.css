@@ -169,13 +169,13 @@ p {
 /*Footer*/
 .site-footer {
   background-color: #26272b;
-  color: #737373;
+  color: #ffffff;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
 }
 .site-footer a {
-  color: #737373;
+  color: #ffffff;
   text-decoration: none;
 }
 .site-footer a:hover {
